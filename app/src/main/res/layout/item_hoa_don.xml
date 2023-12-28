@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/cardview_hoa_don">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add TextViews to display the bill details -->
+        <TextView
+            android:id="@+id/roomNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P24"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/soDienTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền điện: 200000 vnd"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/soNuocTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền nước: 200000 vnd"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/tienVeSinhTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền vệ sinh: 200000 vnd"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/tienPhongTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền phòng: 200000 vnd"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/tongTienTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng: 200000 vnd"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/ngayThangTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày: 20/10/2023"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/ghiChuTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú: ok"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/daThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dã thanh toán"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/blue"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/chuaThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa thanh toán"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/red"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/xacNhanThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận thanh toán"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:backgroundTint="@color/blue"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

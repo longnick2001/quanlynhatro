@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_item1"
+        android:title="Trang chủ"
+        android:icon="@drawable/home"
+        android:iconTint="@color/white" />
+    <item
+        android:id="@+id/navigation_item2"
+        android:title="Phòng"
+        android:icon="@drawable/room"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/navigation_item3"
+        android:title="Tìm kiếm"
+        android:icon="@drawable/search"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/navigation_item4"
+        android:title="Danh sách học sinh"
+        android:icon="@drawable/list_student"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/navigation_item5"
+        android:title="Thông tin hóa đơn"
+        android:icon="@drawable/hoa_don"
+        android:iconTint="@color/white"/>
+</menu>

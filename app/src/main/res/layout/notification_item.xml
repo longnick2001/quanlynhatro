@@ -1,0 +1,57 @@
+<!-- notification_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:radius="8dp">
+
+        <!-- Add your content inside the CardView -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Notification Title -->
+            <TextView
+                android:id="@+id/notificationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notification Title"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <!-- Notification Details -->
+            <TextView
+                android:id="@+id/notificationDetails"
+                android:layout_below="@id/notificationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Notification Details"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/notification_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:layout_below="@id/notificationDetails"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:text="Notification Details"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

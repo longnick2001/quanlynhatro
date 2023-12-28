@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857359814436",
+    "project_id": "quanlynhatro-cd5a5",
+    "storage_bucket": "quanlynhatro-cd5a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857359814436:android:df734cea693cebef62edb1",
+        "android_client_info": {
+          "package_name": "longpdph30373.poly.qunlnhtr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAm9cetO06Ctl-LSRfmVmmpQOajO8tcMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
